@@ -15,9 +15,9 @@ proxy.on('error', (err, req, res) => {
 // Create your server and proxy requests
 const server = http.createServer((req, res) => {
   // Change the target URL as needed
-  const targetUrl = 'http://example.com';
+  const targetUrl = 'http://google.com';
   
-  proxy.web(req, res, { target: targetUrl });
+  proxy.web(req, res, { target: google.com });
 });
 
 // Start the server
